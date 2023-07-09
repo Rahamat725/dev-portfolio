@@ -113,11 +113,29 @@ nav a {
 
 
 /* main section */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    /* justify-content: center; */
+}
 
 /* about section */
 .about{
-    padding: 130px;
+    padding: 100px;
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px 0;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+    color: #757575;
+}
+.about-info-dec{
+    color:#474747;
+    font-weight: bold;
+    margin-top: -20px;
 }
